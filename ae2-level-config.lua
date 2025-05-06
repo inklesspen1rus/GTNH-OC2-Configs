@@ -186,5 +186,6 @@ return
         { lock = 'ae2_cables', level = 128, batch = 8, selector = { label = 'ME Glass Cable - Fluix' } },
         { lock = 'ae2_cables', level = 128, batch = 8, selector = { label = 'ME Dense Covered Cable - Fluix' } },
         { lock = 'ae2_cables', level = 16, batch = 1, selector = { label = 'ME Dense Smart Cable - Fluix' } },
+        { lock = 'ae2_cables', level = 64, batch = 1, selector = { label = 'Dense ME Conduit' } },
     }
 }
