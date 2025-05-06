@@ -74,6 +74,7 @@ return
         { lock = 'complex', level = 4, batch = 1, selector = { label = '64k ME Storage Cell' } },
         
         -- OpenComputers stuff
+        { lock = 'complex_os', level = 100, batch = 10, selector = { label = 'Cable' } },
         { lock = 'complex_os', level = 1, batch = 1, selector = { label = 'Accelerated Processing Unit (APU) (Tier 1)' } },
         { lock = 'complex_os', level = 1, batch = 1, selector = { label = 'Accelerated Processing Unit (APU) (Tier 2)' } },
         { lock = 'complex_os', level = 1, batch = 1, selector = { label = 'Computer Case (Tier 2)' } },
