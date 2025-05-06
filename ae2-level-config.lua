@@ -11,7 +11,7 @@ return
         { level = 32, batch = 32, selector = { label = 'Hydrochloric Acid Cell' } },
         { level = 32, batch = 32, selector = { label = 'Phosphoric Acid Cell' } },
         { level = 4, batch = 4, selector = { label = 'XP Bucket' } },
-        { level = 256, batch = 1, selector = { label = 'Sunnarium Dust' } },
+        { level = 1024, batch = 1, selector = { label = 'Sunnarium Dust' } },
         { level = 1, batch = 1, selector = { label = 'Palladium Salt Dust' } },
         { level = 256, batch = 1, selector = { label = 'Osmium Dust' } },
         { level = 1024, batch = 4, selector = { label = 'Palladium Dust' } },
@@ -47,6 +47,13 @@ return
         { level = 1024, batch = 1, selector = { label = 'SMD Inductor' } },
         { level = 1024, batch = 1, selector = { label = 'SMD Resistor' } },
         { level = 1024, batch = 1, selector = { label = 'SMD Transistor' } },
+        { level = 1024,             batch = 1,    selector = { label = 'Annealed Copper Ingot' } },
+        -- Needs better vanadium source
+        -- { level = 256, batch = 1, selector = { label = 'Advanced SMD Capacitor' } },
+        -- { level = 256, batch = 1, selector = { label = 'Advanced SMD Diode' } },
+        -- { level = 256, batch = 1, selector = { label = 'Advanced SMD Inductor' } },
+        -- { level = 256, batch = 1, selector = { label = 'Advanced SMD Resistor' } },
+        -- { level = 256, batch = 1, selector = { label = 'Advanced SMD Transistor' } },
 
         { lock = 'complex', level = 16, batch = 1, selector = { label = 'Output Bus (ME)' } },
         { lock = 'complex', level = 16, batch = 1, selector = { label = 'Output Hatch (ME)' } },
@@ -136,7 +143,7 @@ return
         { lock = 'EBF', level = 256, batch = 1, selector = { label = 'TPV-Alloy Ingot' } },
         { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Pulsating Iron Ingot' } },
         { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Vibrant Alloy Ingot' } },
-        { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Void Ingot' } },
+        { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Void metal Ingot' } },
         { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Black Steel Ingot' } },
         { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Chrome Ingot' } },
         { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Conductive Iron Ingot' } },
@@ -154,5 +161,30 @@ return
         { lock = 'EBF', level = 16, batch = 1, selector = { label = 'Neodymium Ingot' } },
         { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Redstone Alloy Ingot' } },
         { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Silicon Solar Grade (Poly SI) Ingot' } },
+
+        -- Forestry stuff
+        { level = 24, batch = 4, selector = { label = 'Diamantine Electron Tube' } },
+        { level = 24, batch = 4, selector = { label = 'Iron Electron Tube' } },
+        { level = 6, batch = 1, selector = { label = 'Intricate Circuit Board' } },
+        { level = 32, batch = 1, selector = { label = 'Apiary' } },
+        { lock = 'ForestryAlveary', level = 100, batch = 1, selector = { label = 'Alveary' } },
+        { lock = 'ForestryAlveary', level = 10, batch = 1, selector = { label = 'Alveary Fan' } },
+        { lock = 'ForestryAlveary', level = 10, batch = 1, selector = { label = 'Alveary Heater' } },
+        { lock = 'ForestryAlveary', level = 10, batch = 1, selector = { label = 'Alveary Heater' } },
+        { lock = 'ForestryAlveary', level = 10, batch = 1, selector = { label = 'Alveary Hygroregulator' } },
+        { lock = 'ForestryAlveary', level = 10, batch = 1, selector = { label = 'Alveary Lighting' } },
+        { lock = 'ForestryAlveary', level = 10, batch = 1, selector = { label = 'Electrical Stimulator' } },
+        { lock = 'ForestryAlveary', level = 10, batch = 1, selector = { label = 'Mutator' } },
+
+        -- EnderIO Filter stuff
+        { lock = 'eio_filter', level = 64, batch = 1, selector = { label = 'Basic Item Filter' } },
+        { lock = 'eio_filter', level = 8, batch = 1, selector = { label = 'Advanced Item Filter' } },
+        
+        -- Pipes, conduits...
+        { level = 128, batch = 8, selector = { label = 'Item Conduit' } },
+        { level = 128, batch = 8, selector = { label = 'Ender Fluid Conduit' } },
+        { lock = 'ae2_cables', level = 128, batch = 8, selector = { label = 'ME Glass Cable - Fluix' } },
+        { lock = 'ae2_cables', level = 128, batch = 8, selector = { label = 'ME Dense Covered Cable - Fluix' } },
+        { lock = 'ae2_cables', level = 16, batch = 1, selector = { label = 'ME Dense Smart Cable - Fluix' } },
     }
 }
