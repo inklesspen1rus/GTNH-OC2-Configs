@@ -101,6 +101,7 @@ return
         { lock = 'complex_os', level = 1, batch = 1, selector = { label = 'RITEG Upgrade' } },
         { lock = 'complex_os', level = 6, batch = 1, selector = { label = 'Screen (Tier 1)' } },
         { lock = 'complex_os', level = 6, batch = 1, selector = { label = 'Screen (Tier 2)' } },
+        { lock = 'complex_os', level = 6, batch = 1, selector = { label = 'Screen (Tier 3)' } },
         { lock = 'complex_os', level = 1, batch = 1, selector = { label = 'Configurator Upgrade' } },
         { lock = 'complex_os', level = 1, batch = 1, selector = { label = 'Disk Drive' } },
         { lock = 'complex_os', level = 1, batch = 1, selector = { label = 'Tablet Case (Tier 2)' } },
