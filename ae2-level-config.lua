@@ -55,6 +55,10 @@ return
         -- { level = 256, batch = 1, selector = { label = 'Advanced SMD Resistor' } },
         -- { level = 256, batch = 1, selector = { label = 'Advanced SMD Transistor' } },
 
+        { lock = 'complex', level = 16, batch = 1, selector = { label = 'Sensor (LV)' } },
+        { lock = 'complex', level = 16, batch = 1, selector = { label = 'Sensor (MV)' } },
+        { lock = 'complex', level = 16, batch = 1, selector = { label = 'Sensor (HV)' } },
+        { lock = 'complex', level = 16, batch = 1, selector = { label = 'Sensor (EV)' } },
         { lock = 'complex', level = 16, batch = 1, selector = { label = 'Output Bus (ME)' } },
         { lock = 'complex', level = 16, batch = 1, selector = { label = 'Output Hatch (ME)' } },
         { lock = 'complex', level = 16, batch = 1, selector = { label = 'Input Hatch (LV)' } },
