@@ -118,7 +118,7 @@ return
         { lock = 'complex_os', level = 2, batch = 1, selector = { label = 'Card Container (Tier 2)' } },
         { lock = 'complex_os', level = 2, batch = 1, selector = { label = 'Database Upgrade (Tier 1)' } },
         { lock = 'complex_os', level = 2, batch = 1, selector = { label = 'Generator Upgrade' } },
-        { lock = 'complex_os', level = 2, batch = 1, selector = { label = 'TPS Card' } },
+        { lock = 'complex_os', level = 2, batch = 1, selector = { label = 'TPS card' } },
         { lock = 'complex_os', level = 2, batch = 1, selector = { label = 'Transposer' } },
         { lock = 'complex_os', level = 2, batch = 1, selector = { label = 'Solar Generator Upgrade' } },
         { lock = 'complex_os', level = 2, batch = 1, selector = { label = 'Relay' } },
