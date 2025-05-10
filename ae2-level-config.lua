@@ -3,6 +3,9 @@ return
     cpumatch = '%d*%-BG%-%d*',
     items =
     {
+        { level = 256, batch = 1, selector = { label = 'Quad Fuel Rod (Uranium)' } },
+        { level = 256, batch = 1, selector = { label = 'Quad Fuel Rod (Thorium)' } },
+        
         { level = 1, batch = 1, selector = { label = 'BrainTech Aerospace Advanced Reinforced Duct Tape FAL-84' } },
         { level = 1024, batch = 64, selector = { label = 'Stone' } },
         { level = 1024, batch = 1, selector = { label = 'Leather' } },
@@ -25,7 +28,6 @@ return
         { level = 10000, batch = 1, selector = { label = 'Rutile Dust' } },
         { level = 1024, batch = 1, selector = { label = 'Platinum Dust' } },
         { level = 1024, batch = 1, selector = { label = 'Iridium Dust' } },
-        { level = 256, batch = 1, selector = { label = 'Quad Fuel Rod (Uranium)' } },
         { level = 512, batch = 8, selector = { label = 'Silicon Solar Grade (Poly SI) Dust' } },
         { level = 24, batch = 1, selector = { label = 'Lapotron Crystal' } },
         { level = 8, batch = 1, selector = { label = 'EV Energy Hatch' } },
