@@ -175,6 +175,7 @@ return
         { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Energetic Alloy Ingot' } },
         { lock = 'EBF', level = 256, batch = 1, selector = { label = 'HSS-G Ingot' } },
         { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Kanthal Ingot' } },
+        { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Enderium Ingot' } },
         { lock = 'EBF', level = 256, batch = 1, selector = { label = 'Nichrome Ingot' } },
         { lock = 'EBF', level = 16, batch = 1, selector = { label = 'Rose Gold Ingot' } },
         { lock = 'EBF', level = 16, batch = 1, selector = { label = 'Shadow Metal Ingot' } },
