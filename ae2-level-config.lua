@@ -5,6 +5,7 @@ return
     {
         { level = 1, batch = 1, selector = { label = 'BrainTech Aerospace Advanced Reinforced Duct Tape FAL-84' } },
         { level = 1024, batch = 64, selector = { label = 'Stone' } },
+        { level = 1024, batch = 1, selector = { label = 'Leather' } },
         { level = 1, batch = 1, selector = { label = 'Sky Stone Dust' } },
         { level = 32, batch = 32, selector = { label = 'Phthalic Acid Cell' } },
         { level = 32, batch = 32, selector = { label = 'Hydrofluoric Acid Cell' } },
