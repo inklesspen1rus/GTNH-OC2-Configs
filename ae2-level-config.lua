@@ -79,6 +79,8 @@ return
         { lock = 'complex', level = 16, batch = 1, selector = { label = 'Maintenance Hatch' } },
         { lock = 'complex', level = 16, batch = 1, selector = { label = 'Needs Maintenance Cover' } },
         { lock = 'complex', level = 16, batch = 1, selector = { label = 'Energy Cover' } },
+        { lock = 'complex', level = 4, batch = 1, selector = { label = 'Ender Tank' } },
+        { lock = 'complex', level = 4, batch = 1, selector = { label = 'Ender Chest' } },
         { lock = 'complex', level = 16, batch = 1, selector = { label = 'Machine Controller Cover' } },
         { lock = 'complex', level = 4, batch = 1, selector = { label = 'Pattern Capacity Card' } },
         { lock = 'complex', level = 4, batch = 1, selector = { label = '64k ME Storage Component' } },
