@@ -230,5 +230,7 @@ return
         { level = 64000, batch = 4000, selector = { label = 'drop of Sulfuric Acid' } },
         { level = 64000, batch = 4000, selector = { label = 'drop of Radon' } },
         { level = 64000, batch = 4000, selector = { label = 'drop of Polybenzimidazole' } },
+        { level = 64000, batch = 4000, selector = { label = 'drop of Polybenzimidazole' } },
+        { level = 640000, batch = 64000, selector = { label = 'drop of Drilling Fluid' } },
     }
 }
