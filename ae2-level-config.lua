@@ -224,7 +224,7 @@ return
         { level = 512000, batch = 1000, selector = { label = 'drop of Seed Oil' } },
         { level = 256000, batch = 16000, selector = { label = 'drop of Ethylene' } },
         { level = 64000, batch = 4000, selector = { label = 'drop of Tetrafluoroethylene' } },
-        { level = 64000, batch = 4000, selector = { label = 'drop of Molted Epoxid' } },
+        { level = 64000, batch = 4000, selector = { label = 'drop of Molten Epoxid' } },
         { level = 64000, batch = 4000, selector = { label = 'drop of Sulfuric Acid' } },
         { level = 64000, batch = 4000, selector = { label = 'drop of Radon' } },
         { level = 64000, batch = 4000, selector = { label = 'drop of Polybenzimidazole' } },
