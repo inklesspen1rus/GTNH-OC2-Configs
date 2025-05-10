@@ -48,6 +48,7 @@ return
         { level = 1024, batch = 1, selector = { label = 'SMD Inductor' } },
         { level = 1024, batch = 1, selector = { label = 'SMD Resistor' } },
         { level = 1024, batch = 1, selector = { label = 'SMD Transistor' } },
+        { level = 128, batch = 1, selector = { label = 'Nether Star' } },
         { level = 1024,             batch = 1,    selector = { label = 'Annealed Copper Ingot' } },
         -- Needs better vanadium source
         -- { level = 256, batch = 1, selector = { label = 'Advanced SMD Capacitor' } },
