@@ -28,6 +28,8 @@ return
         { level = 10000, batch = 1, selector = { label = 'Rutile Dust' } },
         { level = 1024, batch = 1, selector = { label = 'Platinum Dust' } },
         { level = 1024, batch = 1, selector = { label = 'Iridium Dust' } },
+        { level = 16, batch = 16, selector = { label = 'Rhodium Nitrate Dust' } },
+        { level = 1024, batch = 1, selector = { label = 'Rhodium Dust' } },
         { level = 512, batch = 8, selector = { label = 'Silicon Solar Grade (Poly SI) Dust' } },
         { level = 24, batch = 1, selector = { label = 'Lapotron Crystal' } },
         { level = 8, batch = 1, selector = { label = 'EV Energy Hatch' } },
